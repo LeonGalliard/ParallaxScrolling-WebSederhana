@@ -1,2 +1,2 @@
-# MyNotes
-Aplikasi note sederhana berbasis kotlin. Beta
+# Parallaxscroll web
+web sederhana menggunakan parallax scroll
