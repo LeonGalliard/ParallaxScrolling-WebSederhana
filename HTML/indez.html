@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Ilham Azhar's page</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="G:\Azhar Kuliah\Semester 2\Web Programing\UTS\CSS\style.css"
+    />
+  </head>
+  <body>
+    <header>
+      <a href="#" class="logo">Ilmarr</a>
+      <ul>
+        <li><a href="#" class="active">Home</a></li>
+        <li><a href="Footer.html">College</a></li>
+        <li><a href="#hob">Hobbies</a></li>
+        <li><a href="#cts">About Me</a></li>
+      </ul>
+    </header>
+    <section>
+      <img
+        src="G:\Azhar Kuliah\Semester 2\Web Programing\UTS\Picture\Untitled-6.png"
+        id="dots"
+      />
+      <img
+        src="G:\Azhar Kuliah\Semester 2\Web Programing\UTS\Picture\stars.png"
+        id="stars"
+      />
+      <img
+        src="G:\Azhar Kuliah\Semester 2\Web Programing\UTS\Picture\luns.png"
+        id="moon"
+      />
+      <h2 id="text">Extraordinary A</h2>
+      <a href="#sec" id="btn">Read More</a>
+      <img
+        src="G:\Azhar Kuliah\Semester 2\Web Programing\UTS\Picture\tree.png"
+        id="tree"
+      />
+      <img
+        src="G:\Azhar Kuliah\Semester 2\Web Programing\UTS\Picture\trees.png"
+        id="trees"
+      />
+    </section>
+    <div class="sec" id="sec">
+      <h2>Extraordinary A</h2>
+      <img
+        src="G:\Azhar Kuliah\Semester 2\Web Programing\UTS\Picture\2a.jpg"
+        class="pict"
+        id="pct"
+      />
+      <p>
+        I don't know what to talk about this, Extraordinary A right? which
+        indirectly the tagline describes the class I'm in right now. why does it
+        have to be extraordinary? I don't know spontaneously just thought of it
+        like that there is no special reason, see?. but let me tell you a little
+        about this. my class is currently quite unique if you look closely, why
+        not? my broos, ehem, I think are quite solid hub among them, especially
+        the female ones bar - bar is the right word to explain it hahaha. they
+        are always together wherever their leader goes, that's what my friend
+        said. but I'm not going to talk about that. this class is quite cool
+        with all the ridiculousness in it. especially her, who I call, what is a
+        suitable designation for her? cutest? not suitable I guess, aah adorable
+        might be more appropriate. god gave me a reason to get close to her
+        hahahaha.
+      </p>
+    </div>
+    <div class="hob" id="hob">
+      <h2>My Hobbies</h2>
+      <p>
+        before us talking about my hobbies, we must know what hobby is right? i
+        think A hobby is an activity that you do in your free time for enjoyment
+        or pleasure. It's something that you're passionate about and that you
+        engage in regularly, either alone or with others who share your
+        interest. Hobbies can be creative, like painting or writing, or they can
+        be more physical, like playing a sport or hiking. Some people have
+        multiple hobbies, while others have one that they are particularly
+        dedicated to. Hobbies can be a great way to relax, relieve stress, learn
+        new skills, meet new people, and explore your interests and passions. so
+        the point hobby is what you spend time just for to have fun, relieve
+        your stress, and don't forget to learn new skills. after we know what
+        hobby is let's talk about my hobby.
+        <br /><br />Sasically my hobbies too random to share with you guys, why
+        not? i really like to spend most of my free time just sleeping, and in
+        power saving mode all the time. besides that i also like to watch anime
+        of course, although it's not as addictive as it used to be. i like to
+        read whether it's comics, novels, and general knowledge that interests
+        me. i like reading as well as writing, maybe it's about tens approaching
+        hundreds of writings, stories, quotes, poems that i have uploaded on
+        social media, especially on tumblr. i might as well attach here my
+        random writing is just 1, maybe haha. "I love the fact that I can make
+        people happy, in any form. Even if it's just an hour of their lives, if
+        I can make them feel lucky or make them feel good, or bring a smile to a
+        sour face, that to me is worthwhile." pretty good right? i think it's
+        enough guys.<br /><br />Overall, hobbies are a wonderful way to enrich
+        one's life and to explore new interests and passions. They can bring a
+        sense of fulfillment, enjoyment, and relaxation, and can help to balance
+        out the stresses of daily life.
+      </p>
+    </div>
+    <script>
+      let stars = document.getElementById("stars");
+      let dots = document.getElementById("stars");
+      let moon = document.getElementById("moon");
+      let tree = document.getElementById("tree");
+      let text = document.getElementById("text");
+      let header = document.querySelector("header");
+      let btn = document.getElementById("btn");
+      let trees = document.getElementById("trees");
+      window.addEventListener("scroll", function () {
+        let value = window.scrollY;
+        stars.style.left = value * 0.25 + "px";
+        dots.style.left = value * 0.25 + "px";
+        moon.style.top = value * 1.05 + "px";
+        text.style.marginRight = value * 4 + "px";
+        text.style.marginTop = value * 1.5 + "px";
+        tree.style.top = value * 0.5 + "px";
+        trees.style.top = value * 0 + "px";
+        btn.style.marginTop = value * 1.5 + "px";
+        header.style.top = value * 0.5 + "px";
+      });
+    </script>
+    <table class="tbl" id="tbl">
+      <tr>
+        <td class="colum1">
+          <h1>About Me</h1>
+          <div class="cnt">
+            <img
+              src="G:\Azhar Kuliah\Semester 2\Web Programing\UTS\Picture\azh.png"
+              class="pht"
+              id="pht"
+            />
+          </div>
+        </td>
+        <td class="column2">
+          <div class="cnt">
+            <h2 class="scp" id="scp">Ilham Azhar Basyir</h2>
+            <p>
+              Hi, my name is Ilham Azhar you guys can call me azhar and I'm
+              excited to tell you a little bit about myself. I recently become a
+              new student with a degree in information Tech from Politeknik
+              Negeri Madiun. During my time in College, I had the opportunity to
+              participate in a number of extracurricular activities that helped
+              me develop strong leadership, teamwork, and communication skills.
+              In my free time, I enjoy my hobbies. I'm a hard-working individual
+              who is always looking for new challenges and opportunities to
+              learn and grow. I'm excited to apply my skills and experience to a
+              new role and make a positive impact. Just an image stttt.....
+            </p>
+          </div>
+        </td>
+        <td class="colum3">
+          <div class="container" id="cts">
+            <h3>Contact Us</h3>
+            <form>
+              <label for="name">Name</label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Your name.."
+              />
+
+              <label for="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Your email.."
+              />
+
+              <label for="subject">Subject</label>
+              <textarea
+                id="subject"
+                name="subject"
+                placeholder="Write something.."
+              ></textarea>
+
+              <input type="submit" value="Submit" />
+            </form>
+          </div>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
